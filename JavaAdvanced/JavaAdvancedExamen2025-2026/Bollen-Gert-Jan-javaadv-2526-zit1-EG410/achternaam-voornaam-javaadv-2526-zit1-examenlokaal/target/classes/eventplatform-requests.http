@@ -1,0 +1,39 @@
+
+### USER SRTOY 1
+GET http://localhost:8080/events
+
+
+### USER SRTOY 2
+POST http://localhost:8080/attendees
+Content-Type: application/json
+
+{
+  "fullName": "Alex Peeters",
+  "email": "alex.peeters@example.com"
+}
+
+### USER SRTOY 3
+POST http://localhost:8080/events/10/registrations
+Content-Type: application/json
+
+{
+  "email": "alex.peeters@example.com"
+}
+
+
+### USER SRTOY 4
+PUT http://localhost:8080/registrations/4/check-in
+Content-Type: application/json
+
+{
+  "id": 100,
+  "status": "CHECKED_IN",
+  "attendeeName": "Alex Peeters",
+  "attendeeEmail": "alex.peeters@example.com",
+  "eventName": "Java Day",
+  "checkedInAt": "2026-01-10T09:55:00"
+}
+
+### USER SRTOY 5
+GET http://localhost:8080/events/statistics
+

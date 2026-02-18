@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B81003-B74F-42E2-BAAB-E00A1CA9D7BB}|PokemonApp.Web\\PokemonApp.Web.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\pokemonapp - solution\\pokemonapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0B81003-B74F-42E2-BAAB-E00A1CA9D7BB}|PokemonApp.Web\\PokemonApp.Web.csproj|solutionrelative:pokemonapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B81003-B74F-42E2-BAAB-E00A1CA9D7BB}|PokemonApp.Web\\PokemonApp.Web.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\pokemonapp - solution\\pokemonapp.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B81003-B74F-42E2-BAAB-E00A1CA9D7BB}|PokemonApp.Web\\PokemonApp.Web.csproj|solutionrelative:pokemonapp.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0B81003-B74F-42E2-BAAB-E00A1CA9D7BB}|PokemonApp.Web\\PokemonApp.Web.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\pokemonapp - solution\\pokemonapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0B81003-B74F-42E2-BAAB-E00A1CA9D7BB}|PokemonApp.Web\\PokemonApp.Web.csproj|solutionrelative:pokemonapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450BACD-AD6E-4519-94F1-97C9EB7E2ABE}|PokemonApp.AppLogic\\PokemonApp.AppLogic.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\pokemonapp - solution\\pokemonapp.applogic\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450BACD-AD6E-4519-94F1-97C9EB7E2ABE}|PokemonApp.AppLogic\\PokemonApp.AppLogic.csproj|solutionrelative:pokemonapp.applogic\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9884AC2F-A376-4FE3-B9A7-986B54069102}|PokemonApp.Domain\\PokemonApp.Domain.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\pokemonapp - solution\\pokemonapp.domain\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9884AC2F-A376-4FE3-B9A7-986B54069102}|PokemonApp.Domain\\PokemonApp.Domain.csproj|solutionrelative:pokemonapp.domain\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD471AC-88A8-4457-9A17-0D75EB79B74C}|PokemonApp.Infrastructure\\PokemonApp.Infrastructure.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\pokemonapp - solution\\pokemonapp.infrastructure\\pokemondbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD471AC-88A8-4457-9A17-0D75EB79B74C}|PokemonApp.Infrastructure\\PokemonApp.Infrastructure.csproj|solutionrelative:pokemonapp.infrastructure\\pokemondbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD471AC-88A8-4457-9A17-0D75EB79B74C}|PokemonApp.Infrastructure\\PokemonApp.Infrastructure.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\pokemonapp - solution\\pokemonapp.infrastructure\\pokemondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD471AC-88A8-4457-9A17-0D75EB79B74C}|PokemonApp.Infrastructure\\PokemonApp.Infrastructure.csproj|solutionrelative:pokemonapp.infrastructure\\pokemondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PokemonApp.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PokemonApp.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T12:07:41.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Web\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PokemonApp.Web\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Web\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PokemonApp.Web\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:07:29.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PokemonApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PokemonApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:07:15.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.AppLogic\\IPokemonRepository.cs",
+              "RelativeDocumentMoniker": "PokemonApp.AppLogic\\IPokemonRepository.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.AppLogic\\IPokemonRepository.cs",
+              "RelativeToolTip": "PokemonApp.AppLogic\\IPokemonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:07:11.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Domain\\Pokemon.cs",
+              "RelativeDocumentMoniker": "PokemonApp.Domain\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Domain\\Pokemon.cs",
+              "RelativeToolTip": "PokemonApp.Domain\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:07:07.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokemonDbRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Infrastructure\\PokemonDbRepository.cs",
+              "RelativeDocumentMoniker": "PokemonApp.Infrastructure\\PokemonDbRepository.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Infrastructure\\PokemonDbRepository.cs",
+              "RelativeToolTip": "PokemonApp.Infrastructure\\PokemonDbRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:07:03.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PokemonDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Infrastructure\\PokemonDbContext.cs",
+              "RelativeDocumentMoniker": "PokemonApp.Infrastructure\\PokemonDbContext.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\PokemonApp - Solution\\PokemonApp.Infrastructure\\PokemonDbContext.cs",
+              "RelativeToolTip": "PokemonApp.Infrastructure\\PokemonDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:06:52.421Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

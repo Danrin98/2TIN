@@ -1,0 +1,51 @@
+@model List<DrinkSummaryViewModel>
+@{
+    ViewData["Title"] = "Drinks";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <h1 class="display-5">CaffeineTracker9000</h1>
+        <p class="text-muted">Track system of Coffee & Energy Drinks at PXL Hasselt</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card shadow-sm">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Overview of drinks with total overall consumption count</span>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover table-striped mb-0 align-middle">
+                    <thead class="">
+                        @foreach (var drink in Model)
+                        {
+                            <tr>
+                                <th>@drink.Name</th>
+                                <th><partial name="_Badge" model="drink.Level" /></th>
+                                <th>@drink.CaffeineMgPerServing</th>
+                                <th>@drink.ConsumptionCount</th>
+                                <th>@drink.TotalCaffeineMg</th>
+                            </tr>
+                        }
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <strong>Normal Coffee</strong><br />
+                            <small class="text-muted">What do you expect? Just a normal coffee.</small>
+                        </td>
+                        <td>badge here</td> 
+                        <td>20</td>
+                        <td>9000</td>
+                        <td>18000</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <vc:Todays-Drinks />
+        </div>
+    </div>
+</div>
+

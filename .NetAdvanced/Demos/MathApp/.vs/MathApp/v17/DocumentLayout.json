@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Demos\\MathApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C73C560A-736C-4514-B2F6-96D323C78F39}|MathApp.CLI\\MathApp.CLI.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\demos\\mathapp\\mathapp.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73C560A-736C-4514-B2F6-96D323C78F39}|MathApp.CLI\\MathApp.CLI.csproj|solutionrelative:mathapp.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73C560A-736C-4514-B2F6-96D323C78F39}|MathApp.CLI\\MathApp.CLI.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\demos\\mathapp\\mathapp.cli\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73C560A-736C-4514-B2F6-96D323C78F39}|MathApp.CLI\\MathApp.CLI.csproj|solutionrelative:mathapp.cli\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Demos\\MathApp\\MathApp.CLI\\Program.cs",
+              "RelativeDocumentMoniker": "MathApp.CLI\\Program.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Demos\\MathApp\\MathApp.CLI\\Program.cs",
+              "RelativeToolTip": "MathApp.CLI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:09:44.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Demos\\MathApp\\MathApp.CLI\\Calculator.cs",
+              "RelativeDocumentMoniker": "MathApp.CLI\\Calculator.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Demos\\MathApp\\MathApp.CLI\\Calculator.cs",
+              "RelativeToolTip": "MathApp.CLI\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:09:41.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

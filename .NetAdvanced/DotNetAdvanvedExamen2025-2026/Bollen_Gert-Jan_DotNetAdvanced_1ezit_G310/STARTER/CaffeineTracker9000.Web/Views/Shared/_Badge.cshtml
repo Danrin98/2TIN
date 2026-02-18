@@ -1,0 +1,19 @@
+﻿@model DangerLevel
+@{
+    string badgeClass = ""; 
+    switch(Model) {
+        case DangerLevel.Manageable:
+            badgeClass = "bg-success";
+            break;
+        case DangerLevel.YellowAlert:
+            badgeClass = "bg-warning text-dark";
+            break;
+        case DangerLevel.TooMuch:
+            badgeClass = "bg-danger";
+            break;
+        default:
+            badgeClass = "bg-info";
+            break;
+    }
+}
+<span class="badge @badgeClass">@Model.ToString()</span>

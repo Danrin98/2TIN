@@ -1,0 +1,63 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+body {
+    background-color: #f5efe6; /* light coffee cream */
+}
+
+.navbar {
+    background-color: #221910; /* dark coffee */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    color: #4b2e2b;
+}
+
+.table thead {
+    background-color: #6f4e37; /* coffee brown */
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ede0d4; /* latte */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e6ccb2; /* light mocha */
+}
+
+.btn-primary {
+    background: #ec7f13;
+}
+.btn-primary:hover {
+    background: #f3ede7;
+}
+
+a, a:hover {
+    color: #ec7f13;
+}

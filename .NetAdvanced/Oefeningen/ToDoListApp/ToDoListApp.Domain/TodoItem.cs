@@ -1,0 +1,31 @@
+﻿namespace ToDoListApp.Domain;
+
+public class ToDoItem
+{
+    public Guid Id { get; private set; } // private set for EF (EF can set properties with a private setter)
+
+    public string Description { get; private set; } // private set for EF (EF can set properties with a private setter)
+
+    public bool IsDone { get; set; }
+
+    private ToDoItem() // private constructor for EF
+    {
+        Id = Guid.Empty;
+        Description = string.Empty;
+        IsDone = false;
+    }
+
+    public static ToDoItem CreateNew(string description)
+    {
+        if (description == String.Empty || description == null)
+        {
+            throw new ArgumentException("description cannot be empty");
+        }
+        return new ToDoItem
+        {
+            Id = Guid.NewGuid(),
+            Description = description,
+            IsDone = false
+        }; 
+    }
+}

@@ -1,0 +1,46 @@
+﻿<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+        <a class="sidebar-brand brand-logo" href="index.html"></a>
+    </div>
+    <ul class="nav">
+        <li class="nav-item nav-category">
+            <span class="nav-link">Navigation</span>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" asp-controller="Welcome" asp-action="Index">
+                <span class="menu-icon">
+                    <i class="mdi mdi-home"></i>
+                </span>
+                <span class="menu-title">Home</span>
+            </a>
+            </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" asp-controller="Aliens" asp-action="Overview">
+                <span class="menu-icon">
+                    👽
+                </span>
+                <span class="menu-title">All aliens</span>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" asp-controller="Aliens" asp-action="Adoptables">
+                <span class="menu-icon">
+                    🛸
+                </span>
+                <span class="menu-title">
+                    Adoptables
+                    @* Show the current number here! *@
+                    <vc:candidate-counter></vc:candidate-counter>
+                </span>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" asp-controller="Adoptions" asp-action="Adopted">
+                    <span class="menu-icon">
+                        <i class="mdi mdi-check"></i>
+                    </span>
+                <span class="menu-title">Success stories</span>
+            </a>
+        </li>
+    </ul>
+</nav>

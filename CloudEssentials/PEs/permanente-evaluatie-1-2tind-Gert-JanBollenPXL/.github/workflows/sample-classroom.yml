@@ -1,0 +1,55 @@
+name: Autograding Tests
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened, edited, milestoned]
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  autograde:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Load AWS credentials from file
+        id: load_aws_vars
+        run: cat creds.txt >> $GITHUB_ENV
+        
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-session-token: ${{ env.AWS_SESSION_TOKEN }}
+          aws-region: us-east-1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      
+      - name: Install dependencies
+        run: cd .github/aws-autograde && npm install
+      
+      - name: Run tests
+        uses: classroom-resources/autograding-io-grader@v1
+        id: vpc-test
+        with:
+          test-name: VPC test
+          command: "export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/vpc.js"
+          expected-output: 'correct'
+          comparison-method: exact
+          timeout: 10
+          max-score: 1
+      - name: Autograding Reporter
+        uses: classroom-resources/autograding-grading-reporter@v1
+        env:
+          VPC-TEST_RESULTS: "${{steps.vpc-test.outputs.result}}"
+        with:
+          runners: vpc-test

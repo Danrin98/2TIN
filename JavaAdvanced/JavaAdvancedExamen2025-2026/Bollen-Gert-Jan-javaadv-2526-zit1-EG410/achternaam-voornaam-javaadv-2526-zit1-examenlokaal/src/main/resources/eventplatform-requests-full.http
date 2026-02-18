@@ -1,0 +1,200 @@
+### Event Platform - Full request scenarios
+# This file contains HTTP requests (for REST clients or curl) that exercise
+# the API success and error responses described in the user stories.
+# Run requests in order to reproduce happy paths and common errors.
+
+################################################################################
+# USER STORY 1 — Events raadplegen
+################################################################################
+
+### 1.1 List events (happy path)
+GET http://localhost:8080/events
+
+# Expected: 200 OK
+# Response body: JSON array of events. Example element:
+# {
+#   "id": 1,
+#   "name": "Java Day",
+#   "eventDate": "2026-01-10T10:00:00",
+#   "venueArea": "DOWNTOWN",
+#   "price": 19.99,
+#   "capacity": 10,
+#   "availableSeats": 7
+# }
+
+################################################################################
+# USER STORY 2 — Attendee aanmaken
+################################################################################
+
+### 2.1 Create attendee (happy path)
+POST http://localhost:8080/attendees
+Content-Type: application/json
+
+{
+  "fullName": "Alex Peeters",
+  "email": "alex.peeters+test@example.com"
+}
+
+### Expected: 201 Created
+### Response body example:
+### {
+###   "id": "<uuid>",
+###   "fullName": "Alex Peeters",
+###   "email": "alex.peeters+test@example.com"
+### }
+
+### 2.2 Create attendee (validation error -> 400)
+POST http://localhost:8080/attendees
+Content-Type: application/json
+
+{
+  "fullName": "",
+  "email": "not-an-email"
+}
+
+### Expected: 400 Bad Request
+# Response body: JSON object with field validation messages, e.g.
+# { "fullName": "must not be blank", "email": "must be a well-formed email address" }
+
+### 2.3 Create attendee (duplicate email -> 409)
+# First create an attendee with the email, then repeat the same request.
+POST http://localhost:8080/attendees
+Content-Type: application/json
+
+{
+  "fullName": "Alex Peeters",
+  "email": "alex.peeters+duplicate@example.com"
+}
+
+### Repeat the same request immediately after; the second request should return:
+# Expected: 409 Conflict
+# Response body: { "message": "Attendee with email already exists" }
+
+################################################################################
+# USER STORY 3 — Inschrijven op een event
+################################################################################
+
+# NOTE: To run these registration requests successfully, ensure the attendee exists
+# (use 2.1 to create one). Use the 'email' you created above.
+
+### 3.1 Register for event (happy path)
+POST http://localhost:8080/events/1/registrations
+Content-Type: application/json
+
+{
+  "email": "alex.peeters+test@example.com"
+}
+
+### Expected: 201 Created
+### Response body example:
+### {
+###   "id": 100,
+###   "status": "RESERVED",
+###   "attendeeName": "Alex Peeters",
+###   "attendeeEmail": "alex.peeters+test@example.com",
+###   "eventName": "Java Day",
+###   "createdAt": "2026-01-01T09:00:00",
+###   "checkedInAt": null
+### }
+
+### 3.2 Register (invalid body -> 400)
+POST http://localhost:8080/events/1/registrations
+Content-Type: application/json
+
+{
+  "email": ""
+}
+
+### Expected: 400 Bad Request
+# Response body: validation errors (e.g. { "email": "must not be blank" })
+
+### 3.3 Register (event not found -> 404)
+POST http://localhost:8080/events/99999/registrations
+Content-Type: application/json
+
+{
+  "email": "alex.peeters+test@example.com"
+}
+
+### Expected: 404 Not Found
+# Response body: { "message": "Event not found" }
+
+### 3.4 Register (attendee not found -> 404)
+POST http://localhost:8080/events/1/registrations
+Content-Type: application/json
+
+{
+  "email": "nonexistent+user@example.com"
+}
+
+### Expected: 404 Not Found
+# Response body: { "message": "Attendee not found" }
+
+### 3.5 Register (event full -> 409)
+# To reproduce event-full you must create registrations until the event capacity is reached.
+# Example approach:
+#  - Post registration 3.1 10 times (assuming event capacity is 10).
+#  - Then try one more registration; expected response is 409 Conflict.
+# Expected: 409 Conflict
+# Response body: { "message": "Event is full" }
+
+################################################################################
+# USER STORY 4 — Check-in
+################################################################################
+
+# NOTE: Replace {registrationId} with the registration id returned by 3.1 above.
+
+### 4.1 Check-in (happy path)
+PUT http://localhost:8080/registrations/1/check-in
+
+### Expected: 200 OK
+### Response body example:
+### {
+###   "id": 1,
+###   "status": "CHECKED_IN",
+###   "attendeeName": "Alex Peeters",
+###   "attendeeEmail": "alex.peeters+test@example.com",
+###   "eventName": "Java Day",
+###   "createdAt": "2026-01-10T09:00:00"
+###   "checkedInAt": "2026-01-10T09:55:00"
+### }
+
+### 4.2 Check-in (already checked-in -> 409)
+# Call the same check-in endpoint again for the same registration id.
+PUT http://localhost:8080/registrations/1/check-in
+
+# Expected: 409 Conflict
+# Response body: { "message": "Check-in not allowed" }
+
+### 4.3 Check-in (registration not found -> 404)
+PUT http://localhost:8080/registrations/999999/check-in
+
+# Expected: 404 Not Found
+# Response body: { "message": "Registration not found" }
+
+################################################################################
+# USER STORY 5 — Statistics
+################################################################################
+
+### 5.1 Get statistics (happy path)
+GET http://localhost:8080/events/statistics
+
+# Expected: 200 OK
+# Response body example:
+# {
+#   "averageRegistrationsPerEvent": 1.0,
+#   "mostPopularVenueArea": "DOWNTOWN",
+#   "soldOutEvents": 1,
+#   "statusCounts": {
+#     "RESERVED": 9,
+#     "CHECKED_IN": 1
+#   },
+#   "topEventByCheckIns": "Java Day"
+# }
+
+################################################################################
+# Quick notes
+# - For tests that require the DB to be in a specific state (e.g. event full), prepare the state first
+#   by creating attendees and registrations as needed.
+# - If you run these sequentially via a REST client, use the same base URL: http://localhost:8080
+

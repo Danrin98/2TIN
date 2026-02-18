@@ -1,0 +1,11 @@
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\bin\Debug\net8.0\LinqExamples.deps.json
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\bin\Debug\net8.0\LinqExamples.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\bin\Debug\net8.0\LinqExamples.pdb
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\LinqExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\LinqExamples.AssemblyInfoInputs.cache
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\LinqExamples.AssemblyInfo.cs
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\LinqExamples.csproj.CoreCompileInputs.cache
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\LinqExamples.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\refint\LinqExamples.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\LinqExamples.pdb
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\LinqExamplesOef\LinqExamples\obj\Debug\net8.0\ref\LinqExamples.dll

@@ -1,0 +1,45 @@
+﻿@model ToDoListDetailViewModel
+<div class="container">
+    <h1 class="display-4 text-center mb-3">@Model.List?.Title - Detail</h1>
+
+    <div class="row mb-3">
+        <div class="col-12">
+            @foreach (var item in Model.List?.Items ?? new List<ToDoItem>())
+            {
+                <partial name="_ToDoItemCard" model="item" />
+            }
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" asp-action="Detail">
+                        <input type="hidden" asp-for="ListId" />
+                        <div class="row mb-3">
+                            <label asp-for="NewItemDescription" class=" col-sm-3 col-form-label"></label>
+                            <div class="col-sm-6">
+                                <input asp-for="NewItemDescription" class="form-control">
+                                <span asp-validation-for="NewItemDescription" class="text-danger"></span>
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="submit" class="btn btn-primary mb-2">Add item</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <a class="btn btn-outline-secondary" asp-area="" asp-controller="ToDoList" asp-action="Search">Back to search</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,40 @@
+///////////////////////////////////////////////
+//	Form for creating a Consumption          //
+///////////////////////////////////////////////
+
+@model NewConsumptionViewModel
+@{
+    ViewData["Title"] = "Log a caffeine consumption";
+}
+
+<h1>Log a caffeine consumption</h1>
+<p class="text-muted">Record who, where and when that caffeine shot happened.</p>
+
+<form asp-action="Create" method="post" class="row g-3">
+    @* Tip: You can access a nested property in tag helpers by using dot notation, e.g. Consumption.UserName *@
+    <div class="col-md-6">
+        <label class="form-label"></label>
+        <input class="form-control" />
+        <span class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label class="form-label"></label>
+        <input class="form-control" />
+        <span class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label class="form-label"></label>
+        <input class="form-control" placeholder="PXL Hasselt campus spot" />
+        <span class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label class="form-label">Drink</label>
+        <select class="form-select"></select>
+        <span class="text-danger"></span>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary">Save consumption</button>
+	<a asp-controller="Drinks" asp-action="Index" class="btn btn-link">Cancel</a>
+    </div>
+</form>
+

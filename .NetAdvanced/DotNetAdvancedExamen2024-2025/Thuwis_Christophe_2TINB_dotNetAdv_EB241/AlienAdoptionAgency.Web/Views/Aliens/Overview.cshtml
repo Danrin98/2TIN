@@ -1,0 +1,77 @@
+﻿@model OverviewViewModel
+@{
+	ViewData["Title"] = "Overview";
+}
+
+<h1>All aliens</h1>
+<div class="table-responsive">
+	<table class="table table-dark text-white">
+		<thead>
+			<tr class="font-monospace">
+				<th>Name</th>
+				<th>Species</th>
+				<th>Planet</th>
+				<th>Status</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var alien in Model.Aliens)
+			{
+				<tr>
+					<td>@alien.Name</td>
+					<td>@alien.Species</td>
+					<td>@alien.Planet</td>
+					@* Show the correct badge per Alien *@
+					@if (alien.IsAdoptable)
+					{
+						<td>
+							<span class="badge bg-success">Adoptable</span>
+						</td>
+					}
+					else
+					{
+						<td>
+							<span class="badge bg-danger">Not Adoptable</span>
+						</td>
+					}
+
+					<td>
+						<a asp-controller="Aliens" asp-action="Details" asp-route-id="@alien.AlienId" class="btn btn-primary">View Details</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+
+<!--
+	This pagination works if Model contains the right properties
+	Do not change code below, just get it out of the comment!
+-->
+
+<nav>
+    <ul class="pagination justify-content-center mt-5">
+
+        @if (Model.CurrentPage > 0)
+        {
+            <li class="page-item">
+                <a asp-route-page="@(Model.CurrentPage - 1)" class="page-link">Previous</a>
+            </li>
+        }
+
+        @for (var i = 0; i < Model.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                <a asp-route-page="@i" class="page-link">@(i+1)</a>
+            </li>
+        }
+
+        @if (Model.CurrentPage < Model.TotalPages - 1)
+        {
+             <li class="page-item">
+                <a asp-route-page="@(Model.CurrentPage + 1)" class="page-link">Next</a>
+            </li>
+        }
+    </ul>
+</nav>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dice Roller</title>
+</head>
+<body>
+<h1>Dice Roller</h1>
+
+<label for="numDice">Number of Dice:</label>
+<input type="number" id="numDice" value="6">
+
+<label for="maxNumber">Max Number on Dice:</label>
+<input type="number" id="maxNumber" value="6">
+
+<button id="createButton">Create all dice</button>
+
+<p>Highest Sum: <span id="highestSum">N/A</span></p>
+
+<div id="diceContainer"></div>
+<button id="rollButton">Roll all dice</button>
+
+<script>
+	const createButton = document.getElementById('createButton');
+	const rollButton = document.getElementById('rollButton');
+	const numDiceInput = document.getElementById('numDice');
+	const maxNumberInput = document.getElementById('maxNumber');
+	const highestSumSpan = document.getElementById('highestSum');
+	const diceContainer = document.getElementById('diceContainer');
+
+	function createDieElement(index, value) {
+		const dieElement = document.createElement('div');
+		dieElement.className = 'die';
+		dieElement.id = index;
+		dieElement.innerHTML = value;
+		return dieElement;
+	}
+
+	function showHighestSum() {
+		fetch('http://localhost:8080/diceset/highest-sum')
+			.then(data => {
+				return data.json();
+			}).then(value => {
+				highestSumSpan.textContent = value;
+			}).catch(error => {
+			console.error('Error:', error);
+		});
+	}
+
+	function drawDice() {
+		fetch('http://localhost:8080/diceset')
+			.then(response => response.json())
+			.then(data => {
+				diceContainer.innerHTML = '';
+				for (let i = 0; i < data.length; i++) {
+					const dieElement = createDieElement(i, data[i]);
+					diceContainer.appendChild(dieElement);
+				}
+			})
+			.catch(error => {
+				console.error('Error:', error);
+			});
+	}
+
+	createButton.addEventListener('click', () => {
+		const numDice = numDiceInput.value;
+		const maxNumber = maxNumberInput.value;
+
+		fetch('http://localhost:8080/diceset', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({"numberOfDice": numDice, "sidesOnEachDie": maxNumber})
+		}).then(() => {
+			drawDice();
+			showHighestSum();
+		}).catch(error => {
+			console.error('Error:', error);
+		});
+	});
+
+	rollButton.addEventListener('click', () => {
+		fetch('http://localhost:8080/diceset/roll', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			}
+		}).then(() => {
+			drawDice();
+			showHighestSum();
+		}).catch(error => {
+			console.error('Error:', error);
+		});
+	});
+
+	function rollDie(dieElement) {
+		fetch('http://localhost:8080/diceset/roll?die=' + dieElement.id, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			}
+		}).then(() => {
+			drawDice();
+			showHighestSum();
+		}).catch(error => {
+			console.error('Error:', error);
+		});
+	}
+
+	diceContainer.addEventListener('click', (event) => {
+		const dieElement = event.target;
+		if (dieElement.classList.contains('die')) {
+			rollDie(dieElement);
+		}
+	});
+</script>
+<style>
+    .die {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        font-size: 24px;
+        text-align: center;
+        line-height: 50px;
+        border: 1px solid #000;
+        cursor: pointer;
+    }
+</style>
+</body>
+</html>

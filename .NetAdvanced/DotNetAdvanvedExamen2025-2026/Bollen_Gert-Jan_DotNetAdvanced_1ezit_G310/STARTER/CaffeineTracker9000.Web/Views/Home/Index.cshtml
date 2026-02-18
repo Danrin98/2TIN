@@ -1,0 +1,23 @@
+﻿@model CaffeineWarningViewModel?
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">CaffeineTracker9000</h1>
+    <p class="lead">Belgian Coffee &amp; Energy Drinks at PXL Hasselt</p>
+    <p class="mb-4">Track the most heroic caffeine consumptions on campus, monitor dangerous brews, and add new drinks via the built-in API.</p>
+    <div class="d-flex justify-content-center gap-2">
+        <a class="btn btn-primary" asp-controller="Drinks" asp-action="Index">View drinks</a>
+        <a class="btn btn-outline-secondary" asp-controller="Consumption" asp-action="Create">Log a consumption</a>
+    </div>
+</div>
+
+<!--
+    This is also interesting on other pages 
+    TODO: refactor to a View Component (see assignment)
+-->
+<div>
+<vc:Todays-Drinks/>
+</div>
+    

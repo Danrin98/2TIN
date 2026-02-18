@@ -1,0 +1,5 @@
+INSERT INTO DELIVERY (ID, START_LOCATION, MAX_MEAL_COUNT) VALUES
+    (1, 'CENTER', 3),
+    (2, 'CENTER', 5),
+    (3, 'EAST', 4),
+    (4, 'WEST', 2);

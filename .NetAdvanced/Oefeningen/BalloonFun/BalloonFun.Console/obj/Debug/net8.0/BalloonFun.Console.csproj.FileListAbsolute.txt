@@ -1,0 +1,14 @@
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\bin\Debug\net8.0\BalloonFun.Console.exe
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\bin\Debug\net8.0\BalloonFun.Console.deps.json
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\bin\Debug\net8.0\BalloonFun.Console.runtimeconfig.json
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\bin\Debug\net8.0\BalloonFun.Console.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\bin\Debug\net8.0\BalloonFun.Console.pdb
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\BalloonFun.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\BalloonFun.Console.AssemblyInfoInputs.cache
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\BalloonFun.Console.AssemblyInfo.cs
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\BalloonFun.Console.csproj.CoreCompileInputs.cache
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\BalloonFun.Console.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\refint\BalloonFun.Console.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\BalloonFun.Console.pdb
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\BalloonFun.Console.genruntimeconfig.cache
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Oefeningen\BalloonFun\BalloonFun.Console\obj\Debug\net8.0\ref\BalloonFun.Console.dll

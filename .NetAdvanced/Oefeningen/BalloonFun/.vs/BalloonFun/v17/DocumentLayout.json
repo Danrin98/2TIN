@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\BalloonFun\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC203772-B108-4A78-8C2C-03FA41EC70B3}|BalloonFun.Console\\BalloonFun.Console.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\balloonfun\\balloonfun.console\\randomextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC203772-B108-4A78-8C2C-03FA41EC70B3}|BalloonFun.Console\\BalloonFun.Console.csproj|solutionrelative:balloonfun.console\\randomextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC203772-B108-4A78-8C2C-03FA41EC70B3}|BalloonFun.Console\\BalloonFun.Console.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\balloonfun\\balloonfun.console\\balloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC203772-B108-4A78-8C2C-03FA41EC70B3}|BalloonFun.Console\\BalloonFun.Console.csproj|solutionrelative:balloonfun.console\\balloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC203772-B108-4A78-8C2C-03FA41EC70B3}|BalloonFun.Console\\BalloonFun.Console.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\balloonfun\\balloonfun.console\\balloonprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC203772-B108-4A78-8C2C-03FA41EC70B3}|BalloonFun.Console\\BalloonFun.Console.csproj|solutionrelative:balloonfun.console\\balloonprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RandomExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\BalloonFun\\BalloonFun.Console\\RandomExtensions.cs",
+              "RelativeDocumentMoniker": "BalloonFun.Console\\RandomExtensions.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\BalloonFun\\BalloonFun.Console\\RandomExtensions.cs",
+              "RelativeToolTip": "BalloonFun.Console\\RandomExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T11:15:54.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BalloonProgram.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\BalloonFun\\BalloonFun.Console\\BalloonProgram.cs",
+              "RelativeDocumentMoniker": "BalloonFun.Console\\BalloonProgram.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\BalloonFun\\BalloonFun.Console\\BalloonProgram.cs",
+              "RelativeToolTip": "BalloonFun.Console\\BalloonProgram.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T11:09:24.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Balloon.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\BalloonFun\\BalloonFun.Console\\Balloon.cs",
+              "RelativeDocumentMoniker": "BalloonFun.Console\\Balloon.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\BalloonFun\\BalloonFun.Console\\Balloon.cs",
+              "RelativeToolTip": "BalloonFun.Console\\Balloon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T11:05:46.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

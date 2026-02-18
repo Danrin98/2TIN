@@ -1,0 +1,125 @@
+2025-12-17 09:41:00.414 [trace] Remote configuration data at /home/codespace/.vscode-remote
+2025-12-17 09:41:00.415 [trace] process arguments: {"_":[],"host":"127.0.0.1","port":"0","connection-token-file":"/home/codespace/.vscode-remote/data/Machine/.connection-token-618725e67565b290ba4da6fe2d29f8fa1d4e3622","without-connection-token":false,"disable-websocket-compression":false,"print-startup-performance":false,"print-ip-address":false,"accept-server-license-terms":true,"server-data-dir":"/home/codespace/.vscode-remote","enable-smoke-test-driver":false,"disable-telemetry":false,"disable-experiments":false,"disable-workspace-trust":false,"log":["trace"],"force-disable-user-env":true,"enable-sync":false,"use-test-resolver":false,"extensions-download-dir":"/home/codespace/.vscode-remote/extensionsCache","install-extension":["AmazonWebServices.aws-toolkit-vscode","/tmp/pixel-lint-0.0.3.vsix"],"install-builtin-extension":["GitHub.vscode-pull-request-github","github.github-vscode-theme","github.codespaces"],"update-extensions":false,"list-extensions":false,"show-versions":false,"force":false,"do-not-sync":true,"do-not-include-pack-dependencies":false,"pre-release":false,"start-server":true,"enable-remote-auto-shutdown":true,"remote-auto-shutdown-without-delay":false,"use-host-proxy":false,"without-browser-env-var":false,"help":false,"version":false,"user-data-dir":"/home/codespace/.vscode-remote/data","builtin-extensions-dir":"/vscode/bin/linux-x64/618725e67565b290ba4da6fe2d29f8fa1d4e3622/extensions","extensions-dir":"/home/codespace/.vscode-remote/extensions","logsPath":"/home/codespace/.vscode-remote/data/logs/20251217T094100"}
+2025-12-17 09:41:00.415 [info] 
+
+
+
+
+2025-12-17 09:41:00.415 [trace] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/data/Machine (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/codespace/.vscode-remote/data/Machine/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-17 09:41:00.416 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/data/Machine'
+2025-12-17 09:41:00.417 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/data/Machine/settings.json'
+2025-12-17 09:41:00.446 [trace] Installing builtin extensions passed via args...
+2025-12-17 09:41:00.447 [trace] Started scanning system extensions
+2025-12-17 09:41:00.447 [trace] Started scanning user extensions {"$mid":1,"external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2025-12-17 09:41:00.448 [trace] Installing extensions passed via args...
+2025-12-17 09:41:00.456 [info] Extension host agent started.
+2025-12-17 09:41:00.680 [trace] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-17 09:41:00.682 [debug] Error while reading the extension cache file: /home/codespace/.vscode-remote/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/codespace/.vscode-remote/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/codespace/.vscode-remote/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2025-12-17 09:41:00.684 [info] Started initializing default profile extensions in extensions installation folder. file:///home/codespace/.vscode-remote/extensions
+2025-12-17 09:41:00.699 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/formulahendry.code-runner-0.12.2
+2025-12-17 09:41:00.699 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/vscjava.vscode-java-pack-0.30.2025111702
+2025-12-17 09:41:00.699 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/esbenp.prettier-vscode-11.0.2
+2025-12-17 09:41:00.699 [trace] Deleting from cache /home/codespace/.vscode-remote/extensionsCache/github.vscode-pull-request-github-0.125.2025121704
+2025-12-17 09:41:00.700 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/extensions'
+2025-12-17 09:41:00.717 [debug] ComputeTargetPlatform: linux-x64
+2025-12-17 09:41:00.745 [trace] [File Watcher (node.js)] [raw] ["rename"] extensions.json
+2025-12-17 09:41:00.746 [trace] [File Watcher (node.js)] [raw] ["change"] extensions.json
+2025-12-17 09:41:00.746 [trace] [File Watcher (node.js)] [ADDED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:00.822 [trace] [File Watcher (node.js)]  >> normalized [ADDED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:00.847 [trace] [File Watcher (node.js)] [CHANGED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:00.921 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] /home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:01.071 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/codespace/.vscode-remote/extensions
+2025-12-17 09:41:01.079 [trace] [File Watcher (node.js)] Request to start watching: /home/codespace/.vscode-remote/extensions/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-12-17 09:41:01.079 [trace] Scanned system extensions: 33
+2025-12-17 09:41:01.080 [trace] Scanned user extensions: 0
+2025-12-17 09:41:01.091 [trace] [File Watcher (node.js)] Started watching: '/home/codespace/.vscode-remote/extensions/extensions.json'
+2025-12-17 09:41:01.092 [debug] ComputeTargetPlatform: linux-x64
+2025-12-17 09:41:02.681 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-12-17 09:41:02.682 [trace] #1: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - begin POST {"Client-Id":"NO_AUTH","client-version":"1DS-Web-JS-3.2.13","apikey":"5bbf946d11a54f6783919c455abaddaf-fd62977b-c92d-4714-a45d-649d06980372-7168","upload-time":"1765964462680","time-delta-to-apply-millis":"use-collector-delta","cache-control":"no-cache, no-store","content-type":"application/x-json-stream","Content-Type":"application/json","Content-Length":"2364"}
+2025-12-17 09:41:02.784 [trace] #1: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - end POST 200 {"content-length":"9","content-type":"application/json","server":"Microsoft-HTTPAPI/2.0","strict-transport-security":"max-age=31536000","time-delta-millis":"82","access-control-allow-headers":"time-delta-millis","access-control-allow-methods":"POST","access-control-allow-credentials":"true","access-control-allow-origin":"*","access-control-expose-headers":"time-delta-millis","date":"Wed, 17 Dec 2025 09:41:02 GMT"}
+2025-12-17 09:41:04.407 [info] [127.0.0.1][b2738936][ManagementConnection] New connection established.
+2025-12-17 09:41:04.459 [trace] [File Watcher (node.js)] [raw] ["rename"] .postCreateCommandMarker
+2025-12-17 09:41:04.460 [trace] [File Watcher (node.js)] [raw] ["change"] .postCreateCommandMarker
+2025-12-17 09:41:04.460 [trace] [File Watcher (node.js)] [ADDED] /home/codespace/.vscode-remote/data/Machine/.postCreateCommandMarker
+2025-12-17 09:41:04.536 [trace] [File Watcher (node.js)]  >> normalized [ADDED] /home/codespace/.vscode-remote/data/Machine/.postCreateCommandMarker
+2025-12-17 09:41:04.560 [trace] [File Watcher (node.js)] [CHANGED] /home/codespace/.vscode-remote/data/Machine/.postCreateCommandMarker
+2025-12-17 09:41:04.636 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] /home/codespace/.vscode-remote/data/Machine/.postCreateCommandMarker
+2025-12-17 09:41:05.406 [trace] [127.0.0.1][758d52b2][ExtensionHostConnection] - startParams language: en
+2025-12-17 09:41:05.408 [trace] [127.0.0.1][758d52b2][ExtensionHostConnection] - startParams env: {}
+2025-12-17 09:41:05.409 [info] [127.0.0.1][758d52b2][ExtensionHostConnection] New connection established.
+2025-12-17 09:41:05.410 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-12-17 09:41:05.411 [trace] [reconnection-grace-time] Setting VSCODE_RECONNECTION_GRACE_TIME env var for extension host: 10800000ms (10800s)
+2025-12-17 09:41:05.424 [info] [127.0.0.1][758d52b2][ExtensionHostConnection] <1246> Launched Extension Host Process.
+2025-12-17 09:41:05.638 [trace] [reconnection-grace-time] Server sending grace time to client: 10800000ms (10800s)
+2025-12-17 09:41:05.642 [trace] ExtensionManagementService.updateControlCache
+2025-12-17 09:41:05.642 [trace] Started scanning system extensions
+2025-12-17 09:41:05.643 [trace] Started scanning user extensions {"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2025-12-17 09:41:05.643 [trace] Started scanning user extensions {"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"}
+2025-12-17 09:41:05.645 [trace] Scanning extensions using UI language: en
+2025-12-17 09:41:05.651 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-12-17 09:41:05.651 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-12-17 09:41:05.651 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-12-17 09:41:05.651 [trace] resolveShellEnv(): skipped (--force-disable-user-env)
+2025-12-17 09:41:05.653 [trace] #2: https://main.vscode-cdn.net/extensions/marketplace.json - begin GET {}
+2025-12-17 09:41:05.653 [trace] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-pull-request-github/latest - begin GET {"X-Market-Client-Id":"VSCode 1.107.0","User-Agent":"VSCode 1.107.0 (Code)","X-Market-User-Id":"bbbe6f8d-6789-41ad-becd-07947fcd4611","VSCode-SessionId":"bbba7a86c2e104b115a5f1bea2d0f54203a3eced0d4eeed425c224e1d9cad8d8","Content-Type":"application/json","Accept":"application/json;api-version=7.2-preview","Accept-Encoding":"gzip"}
+2025-12-17 09:41:05.653 [trace] #4: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/github-vscode-theme/latest - begin GET {"X-Market-Client-Id":"VSCode 1.107.0","User-Agent":"VSCode 1.107.0 (Code)","X-Market-User-Id":"bbbe6f8d-6789-41ad-becd-07947fcd4611","VSCode-SessionId":"bbba7a86c2e104b115a5f1bea2d0f54203a3eced0d4eeed425c224e1d9cad8d8","Content-Type":"application/json","Accept":"application/json;api-version=7.2-preview","Accept-Encoding":"gzip"}
+2025-12-17 09:41:05.654 [trace] #5: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/codespaces/latest - begin GET {"X-Market-Client-Id":"VSCode 1.107.0","User-Agent":"VSCode 1.107.0 (Code)","X-Market-User-Id":"bbbe6f8d-6789-41ad-becd-07947fcd4611","VSCode-SessionId":"bbba7a86c2e104b115a5f1bea2d0f54203a3eced0d4eeed425c224e1d9cad8d8","Content-Type":"application/json","Accept":"application/json;api-version=7.2-preview","Accept-Encoding":"gzip"}
+2025-12-17 09:41:05.665 [trace] Scanned user extensions: 0
+2025-12-17 09:41:05.691 [trace] Scanned user extensions: 0
+2025-12-17 09:41:05.725 [trace] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/vscode-pull-request-github/latest - end GET 200 {"cache-control":"public, max-age=1200, stale-while-revalidate=300, stale-if-error=600","transfer-encoding":"chunked","content-type":"application/json; charset=utf-8; api-version=7.2-preview.1","content-encoding":"gzip","x-cache":"TCP_HIT","p3p":"CP=\"CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT\"","x-tfs-processid":"f7107bed-b619-48d1-aaf2-3d918a641264","strict-transport-security":"max-age=31536000; includeSubDomains","activityid":"b91c0fa6-dedb-4055-90ad-6af720115ab4","x-tfs-session":"b91c0fa6-dedb-4055-90ad-6af720115ab4","x-vss-e2eid":"b91c0fa6-dedb-4055-90ad-6af720115ab4","x-vss-senderdeploymentid":"2663b13f-50e3-a655-a159-22f6f4725fab","request-context":"appId=cid-v1:84715e31-583a-4723-a46d-946169b2f4a8","access-control-expose-headers":"Request-Context","x-content-type-options":"nosniff","x-cid":"7","x-ccc":"NL","x-msedge-ref":"Ref A: E1CBF5DD0AEB40D39E604930F012FEF7 Ref B: AMS231032605023 Ref C: 2025-12-17T09:41:05Z","date":"Wed, 17 Dec 2025 09:41:05 GMT"}
+2025-12-17 09:41:05.727 [trace] #4: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/github-vscode-theme/latest - end GET 200 {"cache-control":"public, max-age=1200, stale-while-revalidate=300, stale-if-error=600","transfer-encoding":"chunked","content-type":"application/json; charset=utf-8; api-version=7.2-preview.1","content-encoding":"gzip","x-cache":"TCP_HIT","p3p":"CP=\"CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT\"","x-tfs-processid":"d8c2ba5c-b7c2-4fac-b017-df335def8875","strict-transport-security":"max-age=31536000; includeSubDomains","activityid":"c9986de8-3986-40ae-b5a7-b3ab556ea8d2","x-tfs-session":"c9986de8-3986-40ae-b5a7-b3ab556ea8d2","x-vss-e2eid":"c9986de8-3986-40ae-b5a7-b3ab556ea8d2","x-vss-senderdeploymentid":"2663b13f-50e3-a655-a159-22f6f4725fab","request-context":"appId=cid-v1:84715e31-583a-4723-a46d-946169b2f4a8","access-control-expose-headers":"Request-Context","x-content-type-options":"nosniff","x-cid":"7","x-ccc":"NL","x-msedge-ref":"Ref A: 5E8C76FEDB844224AA176BFCB2BB6471 Ref B: AMS231032610027 Ref C: 2025-12-17T09:41:05Z","date":"Wed, 17 Dec 2025 09:41:05 GMT"}
+2025-12-17 09:41:05.731 [trace] #5: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/codespaces/latest - end GET 200 {"cache-control":"public, max-age=1200, stale-while-revalidate=300, stale-if-error=600","transfer-encoding":"chunked","content-type":"application/json; charset=utf-8; api-version=7.2-preview.1","content-encoding":"gzip","x-cache":"TCP_HIT","p3p":"CP=\"CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT\"","x-tfs-processid":"eea201ae-cba7-48f4-926f-5c3f2405bb0a","strict-transport-security":"max-age=31536000; includeSubDomains","activityid":"46b525c4-1650-468d-b6ec-eab20a036640","x-tfs-session":"46b525c4-1650-468d-b6ec-eab20a036640","x-vss-e2eid":"46b525c4-1650-468d-b6ec-eab20a036640","x-vss-senderdeploymentid":"2663b13f-50e3-a655-a159-22f6f4725fab","request-context":"appId=cid-v1:84715e31-583a-4723-a46d-946169b2f4a8","access-control-expose-headers":"Request-Context","x-content-type-options":"nosniff","x-cid":"7","x-ccc":"NL","x-msedge-ref":"Ref A: BF4811EF22B34D409B2BD9DA79C2631D Ref B: AMS231032610023 Ref C: 2025-12-17T09:41:05Z","date":"Wed, 17 Dec 2025 09:41:05 GMT"}
+2025-12-17 09:41:05.748 [trace] AbstractMcpResourceManagementService#populateLocalServers file:///home/codespace/.vscode-remote/data/User/mcp.json
+2025-12-17 09:41:05.750 [info] Log level changed to info
+2025-12-17 09:41:06.101 [info] Installing builtin extension 'github.codespaces'...
+2025-12-17 09:41:06.105 [info] Installing builtin extension 'github.github-vscode-theme'...
+2025-12-17 09:41:06.107 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2025-12-17 09:41:06.110 [info] Getting Manifest... github.codespaces
+2025-12-17 09:41:06.110 [info] Getting Manifest... github.github-vscode-theme
+2025-12-17 09:41:06.110 [info] Getting Manifest... github.vscode-pull-request-github
+2025-12-17 09:41:06.125 [info] Installing extension: github.codespaces {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.107.0","date":"2025-12-10T07:43:47.883Z"}}
+2025-12-17 09:41:06.125 [info] Installing extension: github.github-vscode-theme {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.107.0","date":"2025-12-10T07:43:47.883Z"}}
+2025-12-17 09:41:06.126 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.107.0","date":"2025-12-10T07:43:47.883Z"}}
+2025-12-17 09:41:06.671 [info] [127.0.0.1][758d52b2][ExtensionHostConnection] <1246> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2025-12-17 09:41:13.540 [info] Extension signature verification result for github.vscode-pull-request-github: Success. Internal Code: 0. Executed: true. Duration: 6156ms.
+2025-12-17 09:41:13.566 [info] Extension signature verification result for github.codespaces: Success. Internal Code: 0. Executed: true. Duration: 6390ms.
+2025-12-17 09:41:13.584 [info] Extension signature verification result for github.github-vscode-theme: Success. Internal Code: 0. Executed: true. Duration: 6361ms.
+2025-12-17 09:41:13.672 [info] Extracted extension to file:///home/codespace/.vscode-remote/extensions/github.github-vscode-theme-6.3.5: github.github-vscode-theme
+2025-12-17 09:41:13.686 [info] Renamed to /home/codespace/.vscode-remote/extensions/github.github-vscode-theme-6.3.5
+2025-12-17 09:41:13.974 [info] Extracted extension to file:///home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.124.0: github.vscode-pull-request-github
+2025-12-17 09:41:13.989 [info] Renamed to /home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.124.0
+2025-12-17 09:41:14.132 [info] Extracted extension to file:///home/codespace/.vscode-remote/extensions/github.codespaces-1.18.4: github.codespaces
+2025-12-17 09:41:14.178 [info] Renamed to /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.4
+2025-12-17 09:41:14.195 [info] Extension installed successfully: github.github-vscode-theme file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:14.196 [info] Extension installed successfully: github.vscode-pull-request-github file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:14.197 [info] Extension installed successfully: github.codespaces file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:14.203 [info] Extension 'github.github-vscode-theme' v6.3.5 was successfully installed.
+2025-12-17 09:41:14.204 [info] Extension 'github.vscode-pull-request-github' v0.124.0 was successfully installed.
+2025-12-17 09:41:14.204 [info] Extension 'github.codespaces' v1.18.4 was successfully installed.
+2025-12-17 09:41:14.205 [info] Installing extensions...
+2025-12-17 09:41:14.421 [info] Installing extension: d-ries.pixel-lint {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"installGivenVersion":true,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.107.0","date":"2025-12-10T07:43:47.883Z"}}
+2025-12-17 09:41:14.531 [info] Extracted extension to file:///home/codespace/.vscode-remote/extensions/d-ries.pixel-lint-0.0.1: d-ries.pixel-lint
+2025-12-17 09:41:14.537 [info] Renamed to /home/codespace/.vscode-remote/extensions/d-ries.pixel-lint-0.0.1
+2025-12-17 09:41:14.551 [info] Extension installed successfully: d-ries.pixel-lint file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:14.552 [info] Extension 'pixel-lint-0.0.3.vsix' was successfully installed.
+2025-12-17 09:41:14.641 [info] Installing extension 'amazonwebservices.aws-toolkit-vscode'...
+2025-12-17 09:41:14.642 [info] Getting Manifest... amazonwebservices.aws-toolkit-vscode
+2025-12-17 09:41:14.651 [info] Installing extension: amazonwebservices.aws-toolkit-vscode {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/home/codespace/.vscode-remote/extensions/extensions.json","external":"file:///home/codespace/.vscode-remote/extensions/extensions.json","path":"/home/codespace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.107.0","date":"2025-12-10T07:43:47.883Z"}}
+2025-12-17 09:41:16.368 [info] Extension signature verification result for amazonwebservices.aws-toolkit-vscode: Success. Internal Code: 0. Executed: true. Duration: 1149ms.
+2025-12-17 09:41:17.332 [info] Extracted extension to file:///home/codespace/.vscode-remote/extensions/amazonwebservices.aws-toolkit-vscode-3.90.0: amazonwebservices.aws-toolkit-vscode
+2025-12-17 09:41:17.357 [info] Renamed to /home/codespace/.vscode-remote/extensions/amazonwebservices.aws-toolkit-vscode-3.90.0
+2025-12-17 09:41:17.360 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:41:17.370 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:41:17.372 [info] Extension installed successfully: amazonwebservices.aws-toolkit-vscode file:///home/codespace/.vscode-remote/extensions/extensions.json
+2025-12-17 09:41:17.375 [info] Extension 'amazonwebservices.aws-toolkit-vscode' v3.90.0 was successfully installed.
+2025-12-17 09:41:17.386 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:41:29.052 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:41:39.265 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:41:55.627 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:42:04.997 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:42:14.111 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:42:14.156 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:42:58.301 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:43:08.550 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-17 09:46:00.456 [info] New EH opened, aborting shutdown

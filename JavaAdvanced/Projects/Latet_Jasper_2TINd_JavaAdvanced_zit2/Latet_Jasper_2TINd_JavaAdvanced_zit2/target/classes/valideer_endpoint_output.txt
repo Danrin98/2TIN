@@ -1,0 +1,29 @@
+==> Validate Meals API endpoints at: http://localhost:8080
+
+1) Create meal MEAL_01
+HTTP 201
+1b) Create meal MEAL_01 again (expect 409)
+HTTP 409
+2) Create meal MEAL_02 (to add to delivery)
+HTTP 201
+3) Add MEAL_02 to delivery 1
+HTTP 200
+3b) Add MEAL_02 again to delivery 1 (expect 400)
+HTTP 400
+4) Deliver MEAL_02
+HTTP 202
+4b) Deliver MEAL_02 again (expect 400)
+HTTP 400
+5) Statistics
+{
+  "statusCounts": {
+    "ORDERED": 1,
+    "DELIVERED": 1
+  },
+  "mostDeliveredLocation": "NORTH",
+  "mostPopularDestination": "NORTH,EAST",
+  "averageMealsPerDelivery": 0.25,
+  "completedDeliveries": 1
+}
+
+Done.

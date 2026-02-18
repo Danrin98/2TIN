@@ -1,0 +1,176 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: internetgateway-in-routetable test
+      id: internetgateway-in-routetable-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: internetgateway-in-routetable test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/internetgateway-in-routetable.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: public-subnet-1 test
+      id: public-subnet-1-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: public-subnet-1 test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/publicsubnet1.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: public-subnet-2 test
+      id: public-subnet-2-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: public-subnet-2 test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/publicsubnet2.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: public-ips test
+      id: public-ips-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: public-ips test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/publicips.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: internetgateway-found test
+      id: internetgateway-found-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: internetgateway-found test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/internetgateway.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: internetgateway-in-routtable test
+      id: internetgateway-in-routtable-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: internetgateway-in-routtable test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/internetgateway-in-routetable.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: security-group test
+      id: security-group-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: security-group test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/securitygroup.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 20
+    - name: EC2-general-settings test
+      id: ec2-general-settings-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: EC2-general-settings test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/ec2.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 20
+    - name: EC2-different-AZs test
+      id: ec2-different-azs-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: EC2-different-AZs test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/ec2-in-azs.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: key test
+      id: key-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: key test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/key.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: s3-settings test
+      id: s3-settings-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: s3-settings test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/s3bucket.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 20
+    - name: s3-web test
+      id: s3-web-test
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: s3-web test
+        setup-command: cd .github/aws-autograde && npm i
+        command: export $(grep -v '^#' creds.txt | xargs) && node .github/aws-autograde/s3-from-web.js
+        input: ''
+        expected-output: correct
+        comparison-method: exact
+        timeout: 10
+        max-score: 10
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        INTERNETGATEWAY-IN-ROUTETABLE-TEST_RESULTS: "${{steps.internetgateway-in-routetable-test.outputs.result}}"
+        PUBLIC-SUBNET-1-TEST_RESULTS: "${{steps.public-subnet-1-test.outputs.result}}"
+        PUBLIC-SUBNET-2-TEST_RESULTS: "${{steps.public-subnet-2-test.outputs.result}}"
+        PUBLIC-IPS-TEST_RESULTS: "${{steps.public-ips-test.outputs.result}}"
+        INTERNETGATEWAY-FOUND-TEST_RESULTS: "${{steps.internetgateway-found-test.outputs.result}}"
+        INTERNETGATEWAY-IN-ROUTTABLE-TEST_RESULTS: "${{steps.internetgateway-in-routtable-test.outputs.result}}"
+        SECURITY-GROUP-TEST_RESULTS: "${{steps.security-group-test.outputs.result}}"
+        EC2-GENERAL-SETTINGS-TEST_RESULTS: "${{steps.ec2-general-settings-test.outputs.result}}"
+        EC2-DIFFERENT-AZS-TEST_RESULTS: "${{steps.ec2-different-azs-test.outputs.result}}"
+        KEY-TEST_RESULTS: "${{steps.key-test.outputs.result}}"
+        S3-SETTINGS-TEST_RESULTS: "${{steps.s3-settings-test.outputs.result}}"
+        S3-WEB-TEST_RESULTS: "${{steps.s3-web-test.outputs.result}}"
+      with:
+        runners: internetgateway-in-routetable-test,public-subnet-1-test,public-subnet-2-test,public-ips-test,internetgateway-found-test,internetgateway-in-routtable-test,security-group-test,ec2-general-settings-test,ec2-different-azs-test,key-test,s3-settings-test,s3-web-test

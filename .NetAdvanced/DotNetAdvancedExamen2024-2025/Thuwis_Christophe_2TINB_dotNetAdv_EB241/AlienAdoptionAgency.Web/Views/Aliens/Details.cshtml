@@ -1,0 +1,21 @@
+﻿@model Alien
+@{
+    ViewData["Title"] = "Details " + Model.Name;
+}
+
+<h1>Details for @Model.Name</h1>
+
+<p><strong>Species:</strong> @Model.Species</p>
+<p><strong>Planet:</strong> @Model.Planet</p>
+<p><strong>Special Needs:</strong> @Model.SpecialNeeds</p>
+<p><strong>Favorite Snack:</strong> @Model.FavoriteSnack</p>
+<p><strong>Status:</strong> @(Model.IsAdoptable ? "Adoptable" : "Not Adoptable")</p>
+
+@if (Model.IsAdoptable)
+{
+    <a class="btn btn-success" href="/swagger" target="_blank">Adopt Me!</a>
+}
+else
+{
+    <p>This alien is not available for adoption.</p>
+}

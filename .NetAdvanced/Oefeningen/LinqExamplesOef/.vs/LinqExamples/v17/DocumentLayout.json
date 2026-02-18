@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\linqexamplesoef\\linqexamples\\executionmethodexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|solutionrelative:linqexamples\\executionmethodexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\linqexamplesoef\\linqexamples\\joinexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|solutionrelative:linqexamples\\joinexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\linqexamplesoef\\linqexamples\\orderbyexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|solutionrelative:linqexamples\\orderbyexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\linqexamplesoef\\linqexamples\\selectexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|solutionrelative:linqexamples\\selectexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|c:\\users\\12401891\\documents\\2tin\\.netadvanced\\oefeningen\\linqexamplesoef\\linqexamples\\whereexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B78EAF0-2525-45B6-8F79-BC08BD5825BD}|LinqExamples\\LinqExamples.csproj|solutionrelative:linqexamples\\whereexamples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WhereExamples.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\WhereExamples.cs",
+              "RelativeDocumentMoniker": "LinqExamples\\WhereExamples.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\WhereExamples.cs",
+              "RelativeToolTip": "LinqExamples\\WhereExamples.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:41:56.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectExamples.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\SelectExamples.cs",
+              "RelativeDocumentMoniker": "LinqExamples\\SelectExamples.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\SelectExamples.cs",
+              "RelativeToolTip": "LinqExamples\\SelectExamples.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:41:55.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderByExamples.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\OrderByExamples.cs",
+              "RelativeDocumentMoniker": "LinqExamples\\OrderByExamples.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\OrderByExamples.cs",
+              "RelativeToolTip": "LinqExamples\\OrderByExamples.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:41:54.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JoinExamples.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\JoinExamples.cs",
+              "RelativeDocumentMoniker": "LinqExamples\\JoinExamples.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\JoinExamples.cs",
+              "RelativeToolTip": "LinqExamples\\JoinExamples.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T11:41:52.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExecutionMethodExamples.cs",
+              "DocumentMoniker": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\ExecutionMethodExamples.cs",
+              "RelativeDocumentMoniker": "LinqExamples\\ExecutionMethodExamples.cs",
+              "ToolTip": "C:\\Users\\12401891\\Documents\\2TIN\\.NetAdvanced\\Oefeningen\\LinqExamplesOef\\LinqExamples\\ExecutionMethodExamples.cs",
+              "RelativeToolTip": "LinqExamples\\ExecutionMethodExamples.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T12:32:09.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

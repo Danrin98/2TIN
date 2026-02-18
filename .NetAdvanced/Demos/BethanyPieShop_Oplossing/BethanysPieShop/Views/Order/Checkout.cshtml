@@ -1,0 +1,22 @@
+﻿@model Order
+
+<form method="post" role="form" asp-controller="Order" asp-action="Checkout">
+	<h3 class="my-5">
+		You're just one step away from your delicious pies.
+	</h3>
+
+	<div class="col-6">
+		<div class="row g-2">
+			<div class="col-12">
+				<label class="form-label" asp-for="FirstName"></label>
+				<input class="form-control" asp-for="FirstName"/>
+			</div>
+		</div>
+
+		<div class="mt-2">
+			<div class="col-md-offset-2 col-md-5">
+				<input type="submit" class="btn btn-secondary" value="Complete order" />
+			</div>
+		</div>
+	</div>
+</form>

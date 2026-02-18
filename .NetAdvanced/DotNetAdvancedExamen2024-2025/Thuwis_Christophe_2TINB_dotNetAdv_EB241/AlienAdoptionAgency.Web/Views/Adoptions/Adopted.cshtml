@@ -1,0 +1,30 @@
+﻿@model IEnumerable<AdoptionRequest> 
+@{
+    ViewData["Title"] = "Success stories...";
+}
+<h1>Aliens that are adopted!</h1>
+<div class="table-responsive">
+    <table class="table table-dark text-white">
+    <thead>
+        <tr class="font-monospace">
+            <th>Name</th>
+            <th>Name adopter</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var adoptionRequest in Model)
+        {
+            <tr>
+                <td>@adoptionRequest.Alien?.Name</td>
+                <td>@adoptionRequest.ApplicantName</td>
+                <td>@adoptionRequest.RequestDate</td>
+                <td>
+                        <a asp-controller="Aliens" asp-action="Details" asp-route-id="@adoptionRequest.AlienId" class="btn btn-primary">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

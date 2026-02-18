@@ -1,0 +1,11 @@
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\bin\Debug\net8.0\PublisherDomain.deps.json
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\bin\Debug\net8.0\PublisherDomain.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\bin\Debug\net8.0\PublisherDomain.pdb
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\PublisherDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\PublisherDomain.AssemblyInfoInputs.cache
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\PublisherDomain.AssemblyInfo.cs
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\PublisherDomain.csproj.CoreCompileInputs.cache
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\PublisherDomain.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\refint\PublisherDomain.dll
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\PublisherDomain.pdb
+C:\Users\12401891\Documents\2TIN\.NetAdvanced\Demos\BookPublishing_Before_nieuw\PublisherDomain\obj\Debug\net8.0\ref\PublisherDomain.dll
