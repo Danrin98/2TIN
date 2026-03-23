@@ -1,13 +1,6 @@
 ---
 - hosts: localhost
-
-  vars:
-        users:
-         - ALICE
-         - BOB
-         - CHARLIE
-
   tasks:
-    - name: Print names in lowercase
+    - name: Display variable value
       ansible.builtin.debug:
-        msg: "{{ lookup('template', 'jinjaloop.j2') }}"
+        msg: "Distribution: {{ ansible_distribution }}"
