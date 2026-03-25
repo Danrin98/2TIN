@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "redhat.ansible",
+    "redhat.vscode-yaml"
+  ],
+  "unwantedRecommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "tabnine.tabnine-vscode",
+    "codeium.codeium",
+    "codeium.codeium-vscode",
+    "continue.continue",
+    "saoudrizwan.claude-dev",
+    "genieai.chatgpt-vscode",
+    "google.gemini-code-assist"
+  ]
+}
